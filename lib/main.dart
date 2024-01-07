@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: lightMode,
       routes: {
         '/intro_page': (context) => const SplashScreen(),
-        '/shop_page': (context) => const ShopPage(),
+        '/shop_page': (context) =>  ShopPage(),
         '/cart_page': (context) => const CartPage(),
       },
     );

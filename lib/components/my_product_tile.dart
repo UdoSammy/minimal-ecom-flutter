@@ -9,7 +9,9 @@ import 'package:work/models/shop.dart';
 class MyProductTile extends StatelessWidget {
   final Product product;
 
-  const MyProductTile({super.key, required this.product});
+
+
+ MyProductTile({super.key, required this.product});
 
   // add to cart button
   void addToCart(BuildContext context) {
